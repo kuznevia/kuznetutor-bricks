@@ -6,7 +6,7 @@ const AdminPlayground: React.FC = () => {
   return (
     <Admin>
       <Head>
-        <title>Playground</title>
+        <title>Playgrround</title>
       </Head>
       <Playground />
     </Admin>
