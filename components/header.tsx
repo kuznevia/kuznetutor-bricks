@@ -9,22 +9,22 @@ const Header: React.FC = () => (
           <img src="/react-bricks-logo.svg" className="w-48" alt="React Bricks" />
           <div className="sm:ml-8 flex space-x-5 text-center">
             <Link href="/" className="text-gray-500 hover:text-pink-700">
-              Home
+              Домашняя страница
             </Link>
             <Link href="/about-us" className="text-gray-500 hover:text-pink-700">
-              About us
+              Обо мне
             </Link>
             <Link href="/blog" className="text-gray-500 hover:text-pink-700">
-              Blog
+              Блог
             </Link>
           </div>
         </div>
         <Link
-          href="/admin"
+          href="#"
           prefetch={false}
           className="py-2 px-5 rounded text-white font-medium bg-cyan-500 hover:bg-cyan-600 hover:shadow-lg transition duration-200"
         >
-          Edit content
+          Связаться
         </Link>
       </div>
     </div>
