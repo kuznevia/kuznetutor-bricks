@@ -7,9 +7,8 @@ import '../css/styles.css'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   // Color Mode Management
-  const savedColorMode =
-    typeof window === 'undefined' ? '' : localStorage.getItem('color-mode')
-  const [colorMode, setColorMode] = useState(savedColorMode || 'light')
+  const savedColorMode = typeof window === 'undefined' ? '' : localStorage.getItem('color-mode')
+  const [colorMode, setColorMode] = useState('light')
   const toggleColorMode = () => {
     const newColorMode = colorMode === 'light' ? 'dark' : 'light'
     setColorMode(newColorMode)
